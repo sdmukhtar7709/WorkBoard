@@ -1,17 +1,57 @@
-import { Link } from 'react-router-dom'
+import { useState, type FormEvent } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 import Button from '../../components/ui/Button'
 import Input from '../../components/ui/Input'
+import { ApiError } from '../../services/apiClient'
+import { register } from '../../services/authService'
+import type { RegisterPayload } from '../../types/auth'
+
+const initialFormState: RegisterPayload = {
+  username: '',
+  password: '',
+  confirmPassword: '',
+}
 
 export default function RegisterPage() {
+  const navigate = useNavigate()
+  const [formData, setFormData] = useState<RegisterPayload>(initialFormState)
+  const [formError, setFormError] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    setIsSubmitting(true)
+    setFormError('')
+
+    try {
+      await register(formData)
+      navigate('/dashboard')
+    } catch (error) {
+      if (error instanceof ApiError) {
+        setFormError(error.details?.message ?? error.message)
+        return
+      }
+
+      setFormError('Unable to register right now.')
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
   return (
-    <form className="space-y-5">
+    <form className="space-y-5" onSubmit={handleSubmit}>
       <Input
         id="register-username"
         label="Username"
         type="text"
         placeholder="Choose a username"
         autoComplete="username"
+        required
+        value={formData.username}
+        onChange={(event) =>
+          setFormData((current) => ({ ...current, username: event.target.value }))
+        }
       />
 
       <Input
@@ -20,6 +60,11 @@ export default function RegisterPage() {
         type="password"
         placeholder="Create a password"
         autoComplete="new-password"
+        required
+        value={formData.password}
+        onChange={(event) =>
+          setFormData((current) => ({ ...current, password: event.target.value }))
+        }
       />
 
       <Input
@@ -28,9 +73,23 @@ export default function RegisterPage() {
         type="password"
         placeholder="Confirm your password"
         autoComplete="new-password"
+        required
+        value={formData.confirmPassword}
+        onChange={(event) =>
+          setFormData((current) => ({
+            ...current,
+            confirmPassword: event.target.value,
+          }))
+        }
       />
 
-      <Button type="submit" className="w-full">
+      {formError ? (
+        <p className="rounded-xl border border-rose-500/30 bg-rose-500/10 px-4 py-3 text-sm text-rose-200">
+          {formError}
+        </p>
+      ) : null}
+
+      <Button type="submit" className="w-full" loading={isSubmitting}>
         Register
       </Button>
 
