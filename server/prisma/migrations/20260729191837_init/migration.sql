@@ -1,5 +1,8 @@
 -- CreateEnum
-CREATE TYPE "public"."JobStatus" AS ENUM ('DRAFT', 'ACTIVE', 'COMPLETED', 'ARCHIVED');
+CREATE TYPE "public"."Priority" AS ENUM ('HIGH', 'LOW');
+
+-- CreateEnum
+CREATE TYPE "public"."JobStatus" AS ENUM ('TO_APPLY', 'APPLIED');
 
 -- CreateTable
 CREATE TABLE "public"."User" (
@@ -13,24 +16,13 @@ CREATE TABLE "public"."User" (
 );
 
 -- CreateTable
-CREATE TABLE "public"."Category" (
-    "id" UUID NOT NULL,
-    "name" TEXT NOT NULL,
-    "userId" UUID NOT NULL,
-    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" TIMESTAMP(3) NOT NULL,
-
-    CONSTRAINT "Category_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
 CREATE TABLE "public"."Job" (
     "id" UUID NOT NULL,
-    "title" TEXT NOT NULL,
-    "description" TEXT,
-    "status" "public"."JobStatus" NOT NULL DEFAULT 'DRAFT',
+    "jobTitle" TEXT NOT NULL,
+    "jobUrl" TEXT NOT NULL,
+    "priority" "public"."Priority" NOT NULL DEFAULT 'HIGH',
+    "status" "public"."JobStatus" NOT NULL DEFAULT 'TO_APPLY',
     "userId" UUID NOT NULL,
-    "categoryId" UUID,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
@@ -41,10 +33,9 @@ CREATE TABLE "public"."Job" (
 CREATE TABLE "public"."Task" (
     "id" UUID NOT NULL,
     "title" TEXT NOT NULL,
-    "description" TEXT,
+    "priority" "public"."Priority" NOT NULL DEFAULT 'HIGH',
     "completed" BOOLEAN NOT NULL DEFAULT false,
     "userId" UUID NOT NULL,
-    "jobId" UUID,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
@@ -55,34 +46,25 @@ CREATE TABLE "public"."Task" (
 CREATE UNIQUE INDEX "User_username_key" ON "public"."User"("username");
 
 -- CreateIndex
-CREATE INDEX "Category_userId_idx" ON "public"."Category"("userId");
-
--- CreateIndex
-CREATE UNIQUE INDEX "Category_userId_name_key" ON "public"."Category"("userId", "name");
-
--- CreateIndex
 CREATE INDEX "Job_userId_idx" ON "public"."Job"("userId");
 
 -- CreateIndex
-CREATE INDEX "Job_categoryId_idx" ON "public"."Job"("categoryId");
+CREATE INDEX "Job_priority_idx" ON "public"."Job"("priority");
+
+-- CreateIndex
+CREATE INDEX "Job_status_idx" ON "public"."Job"("status");
 
 -- CreateIndex
 CREATE INDEX "Task_userId_idx" ON "public"."Task"("userId");
 
 -- CreateIndex
-CREATE INDEX "Task_jobId_idx" ON "public"."Task"("jobId");
+CREATE INDEX "Task_priority_idx" ON "public"."Task"("priority");
 
--- AddForeignKey
-ALTER TABLE "public"."Category" ADD CONSTRAINT "Category_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+-- CreateIndex
+CREATE INDEX "Task_completed_idx" ON "public"."Task"("completed");
 
 -- AddForeignKey
 ALTER TABLE "public"."Job" ADD CONSTRAINT "Job_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "public"."Job" ADD CONSTRAINT "Job_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "public"."Category"("id") ON DELETE SET NULL ON UPDATE CASCADE;
-
--- AddForeignKey
 ALTER TABLE "public"."Task" ADD CONSTRAINT "Task_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "public"."Task" ADD CONSTRAINT "Task_jobId_fkey" FOREIGN KEY ("jobId") REFERENCES "public"."Job"("id") ON DELETE SET NULL ON UPDATE CASCADE;
