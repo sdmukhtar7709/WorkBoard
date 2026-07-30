@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState, type FormEvent } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 import Button from '../../components/ui/Button'
 import Card from '../../components/ui/Card'
@@ -8,6 +9,7 @@ import PageContainer from '../../components/layout/PageContainer'
 import DashboardSection from '../../components/dashboard/DashboardSection'
 import JobListItem from '../../components/dashboard/JobListItem'
 import TaskListItem from '../../components/dashboard/TaskListItem'
+import { useAuth } from '../../context/AuthContext'
 import { getApiErrorMessage } from '../../services/httpClient'
 import { createJob, deleteJob, fetchJobs, updateJob } from '../../services/jobService'
 import { createTask, deleteTask, fetchTasks, updateTask } from '../../services/taskService'
@@ -59,9 +61,12 @@ function DashboardEmptyState({ title, message }: { title: string; message: strin
 }
 
 export default function DashboardPage() {
+  const navigate = useNavigate()
+  const { user } = useAuth()
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState('')
   const [activeModal, setActiveModal] = useState<ActiveModal>(null)
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false)
   const [jobForm, setJobForm] = useState<JobFormState>(emptyJobForm)
   const [taskForm, setTaskForm] = useState<TaskFormState>(emptyTaskForm)
   const [jobs, setJobs] = useState<Job[]>([])
@@ -116,7 +121,20 @@ export default function DashboardPage() {
     [tasks],
   )
 
+  function requireLogin() {
+    if (!user) {
+      setShowLoginPrompt(true)
+      return false
+    }
+
+    return true
+  }
+
   function openCreateJobModal(priority: Priority = 'high') {
+    if (!requireLogin()) {
+      return
+    }
+
     setEditingJobId(null)
     setJobForm({ ...emptyJobForm, priority })
     setActiveModal('create-job')
@@ -134,6 +152,10 @@ export default function DashboardPage() {
   }
 
   function openCreateTaskModal(priority: Priority = 'high') {
+    if (!requireLogin()) {
+      return
+    }
+
     setEditingTaskId(null)
     setTaskForm({ ...emptyTaskForm, priority })
     setActiveModal('create-task')
@@ -517,6 +539,24 @@ export default function DashboardPage() {
             </Button>
           </div>
         </form>
+      </Modal>
+
+      <Modal
+        open={showLoginPrompt}
+        onClose={() => setShowLoginPrompt(false)}
+        title="Login required"
+      >
+        <div className="space-y-4">
+          <p className="text-sm leading-6 text-slate-300">
+            You need to sign in before you can add or edit jobs and tasks.
+          </p>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end">
+            <Button variant="secondary" onClick={() => setShowLoginPrompt(false)}>
+              Stay here
+            </Button>
+            <Button onClick={() => navigate('/login')}>Login</Button>
+          </div>
+        </div>
       </Modal>
 
       <Modal

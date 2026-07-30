@@ -2,6 +2,8 @@ import { Route, Routes } from 'react-router-dom'
 
 import AppLayout from '../components/layout/AppLayout'
 import AuthLayout from '../components/layout/AuthLayout'
+import ProtectedRoute from '../components/layout/ProtectedRoute'
+import HomePage from '../pages/Home'
 import DashboardPage from '../pages/Dashboard'
 import LoginPage from '../pages/Login'
 import ProfilePage from '../pages/Profile'
@@ -15,8 +17,15 @@ export function AppRoutes() {
         <Route path="/register" element={<RegisterPage />} />
       </Route>
 
-      <Route element={<AppLayout />}>
-        <Route path="/" element={<DashboardPage />} />
+      <Route path="/" element={<HomePage />} />
+
+      <Route
+        element={
+          <ProtectedRoute>
+            <AppLayout />
+          </ProtectedRoute>
+        }
+      >
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/profile" element={<ProfilePage />} />
       </Route>

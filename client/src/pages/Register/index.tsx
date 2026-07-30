@@ -5,6 +5,7 @@ import Button from '../../components/ui/Button'
 import Input from '../../components/ui/Input'
 import { ApiError } from '../../services/apiClient'
 import { register } from '../../services/authService'
+import { useAuth } from '../../context/AuthContext'
 import type { RegisterPayload } from '../../types/auth'
 
 const initialFormState: RegisterPayload = {
@@ -15,6 +16,7 @@ const initialFormState: RegisterPayload = {
 
 export default function RegisterPage() {
   const navigate = useNavigate()
+  const { setUser } = useAuth()
   const [formData, setFormData] = useState<RegisterPayload>(initialFormState)
   const [formError, setFormError] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -25,7 +27,8 @@ export default function RegisterPage() {
     setFormError('')
 
     try {
-      await register(formData)
+      const response = await register(formData)
+      setUser(response.data.user)
       navigate('/dashboard')
     } catch (error) {
       if (error instanceof ApiError) {
