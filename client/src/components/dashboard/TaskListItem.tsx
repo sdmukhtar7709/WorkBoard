@@ -19,13 +19,11 @@ export default function TaskListItem({
   return (
     <article
       className={[
-        'flex items-center justify-between gap-3 rounded-2xl border px-4 py-3 shadow-lg shadow-slate-950/20 transition-transform duration-200 hover:-translate-y-0.5',
-        task.completed
-          ? 'border-emerald-500/20 bg-emerald-500/5 hover:border-emerald-500/30'
-          : 'border-slate-800 bg-slate-900/70 hover:border-slate-700',
+        'flex items-center justify-between gap-4 rounded-2xl border border-slate-800 bg-slate-900/70 px-4 py-2 shadow-lg shadow-slate-950/20 transition-colors duration-200 hover:border-slate-700',
+        task.completed ? 'bg-emerald-500/5 border-emerald-500/20' : '',
       ].join(' ')}
     >
-      <label className="flex min-w-0 flex-1 items-center gap-3">
+      <div className="min-w-0 flex items-center gap-3">
         <input
           checked={task.completed}
           disabled={isUpdating}
@@ -36,12 +34,12 @@ export default function TaskListItem({
         <span
           className={[
             'min-w-0 text-sm font-medium text-white',
-            task.completed ? 'line-through opacity-50' : '',
+            task.completed ? 'line-through opacity-60' : '',
           ].join(' ')}
         >
           {task.title}
         </span>
-      </label>
+      </div>
 
       <div className="flex items-center gap-2">
         <Button

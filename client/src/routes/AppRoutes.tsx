@@ -5,7 +5,6 @@ import AuthLayout from '../components/layout/AuthLayout'
 import ProtectedRoute from '../components/layout/ProtectedRoute'
 import DashboardPage from '../pages/Dashboard'
 import LoginPage from '../pages/Login'
-import ProfilePage from '../pages/Profile'
 import RegisterPage from '../pages/Register'
 
 export function AppRoutes() {
@@ -26,7 +25,6 @@ export function AppRoutes() {
         }
       >
         <Route path="/dashboard" element={<DashboardPage />} />
-        <Route path="/profile" element={<ProfilePage />} />
       </Route>
     </Routes>
   )

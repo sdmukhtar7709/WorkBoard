@@ -5,10 +5,7 @@ import Button from '../ui/Button'
 import Logo from '../ui/Logo'
 import { logout } from '../../services/authService'
 
-const navItems = [
-  { label: 'Dashboard', path: '/dashboard' },
-  { label: 'Profile', path: '/profile' },
-]
+const navItems = [{ label: 'Dashboard', path: '/dashboard' }]
 
 export default function Navbar() {
   const navigate = useNavigate()

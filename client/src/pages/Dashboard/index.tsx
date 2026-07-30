@@ -290,17 +290,11 @@ export default function DashboardPage() {
   return (
     <PageContainer className="py-5 sm:py-6 lg:py-8">
       <div className="mb-6 flex flex-col gap-3">
-        <p className="text-sm font-medium uppercase tracking-[0.3em] text-cyan-300">
-          Personal dashboard
-        </p>
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
               WorkBoard Dashboard
             </h1>
-            <p className="mt-2 max-w-2xl text-sm text-slate-400 sm:text-base">
-              Keep job opportunities and daily tasks in one fast, lightweight workspace.
-            </p>
           </div>
 
           <div className="flex flex-wrap gap-2">
@@ -332,7 +326,7 @@ export default function DashboardPage() {
           </>
         ) : (
           <>
-            <Card className="space-y-5">
+            <Card className="space-y-4">
               <div className="flex items-center justify-between gap-3">
                 <h2 className="text-2xl font-semibold tracking-tight text-white">Jobs</h2>
                 <Button className="rounded-full px-4 py-2 text-sm" onClick={() => openCreateJobModal('high')}>
@@ -354,7 +348,7 @@ export default function DashboardPage() {
                       message="Add a job to keep your high priority applications visible here."
                     />
                   ) : (
-                    <div className="space-y-2">
+                    <div className="grid gap-3">
                       {highJobs.map((job) => (
                         <JobListItem
                           key={job.id}
@@ -381,7 +375,7 @@ export default function DashboardPage() {
                       message="Save lower priority opportunities here for later review."
                     />
                   ) : (
-                    <div className="space-y-2">
+                    <div className="grid gap-3">
                       {lowJobs.map((job) => (
                         <JobListItem
                           key={job.id}
@@ -419,7 +413,7 @@ export default function DashboardPage() {
                       message="Add your important tasks here so they stay visible at the top."
                     />
                   ) : (
-                    <div className="space-y-2">
+                    <div className="grid gap-3">
                       {highTasks.map((task) => (
                         <TaskListItem
                           key={task.id}
@@ -447,7 +441,7 @@ export default function DashboardPage() {
                       message="Capture lighter work items here and keep your day organized."
                     />
                   ) : (
-                    <div className="space-y-2">
+                    <div className="grid gap-3">
                       {lowTasks.map((task) => (
                         <TaskListItem
                           key={task.id}
@@ -567,7 +561,7 @@ export default function DashboardPage() {
         <form className="space-y-4" onSubmit={handleTaskSubmit}>
           <Input
             id="task-title"
-            label="Task Title"
+            label="Description"
             required
             placeholder="Review application updates"
             value={taskForm.title}
