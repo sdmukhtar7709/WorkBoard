@@ -1,9 +1,10 @@
 import axios from 'axios'
 
 import type { ApiErrorResponse } from '../types/api'
+import { apiBaseUrl } from './apiClient'
 
 export const httpClient = axios.create({
-  baseURL: '/api/v1',
+  baseURL: apiBaseUrl,
   withCredentials: true,
 })
 
