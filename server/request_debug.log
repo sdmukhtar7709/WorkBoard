@@ -678,3 +678,311 @@ BODY: undefined
 HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 BODY: undefined
 
+[2026-07-30T17:38:04.321Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:38:04.329Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:38:05.798Z] POST /api/v1/auth/login
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","content-length":"45","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: {"username":"example","password":"E12345678"}
+
+[2026-07-30T17:38:06.138Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"3c-TlReGbsoIskrf+G8ioWS58yEr6A\""}
+BODY: undefined
+
+[2026-07-30T17:38:06.146Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"3e-Hug8hzN2Fspi346U0SAIXOiKkVo\""}
+BODY: undefined
+
+[2026-07-30T17:38:06.180Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"3c-TlReGbsoIskrf+G8ioWS58yEr6A\""}
+BODY: undefined
+
+[2026-07-30T17:38:06.195Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"3e-Hug8hzN2Fspi346U0SAIXOiKkVo\""}
+BODY: undefined
+
+[2026-07-30T17:40:31.773Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:40:31.782Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:42:21.001Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA"}
+BODY: undefined
+
+[2026-07-30T17:42:21.082Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"d8-BHkAi9h1/gBpmhnUhZvuZlg5EbM\""}
+BODY: undefined
+
+[2026-07-30T17:42:21.507Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"3c-TlReGbsoIskrf+G8ioWS58yEr6A\""}
+BODY: undefined
+
+[2026-07-30T17:42:21.510Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"3e-Hug8hzN2Fspi346U0SAIXOiKkVo\""}
+BODY: undefined
+
+[2026-07-30T17:42:21.524Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"3c-TlReGbsoIskrf+G8ioWS58yEr6A\""}
+BODY: undefined
+
+[2026-07-30T17:42:21.556Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA","if-none-match":"W/\"3e-Hug8hzN2Fspi346U0SAIXOiKkVo\""}
+BODY: undefined
+
+[2026-07-30T17:42:33.055Z] POST /api/v1/auth/logout
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","content-length":"0","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzMwODYsImV4cCI6MTc4NTUxOTQ4Nn0.eyA4Z5yl5CBQo77VmGNKBgmOrquKJ0POFDWVEYsCJiA"}
+BODY: {}
+
+[2026-07-30T17:42:35.837Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:42:35.858Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:42:35.869Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:42:35.902Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:42:37.941Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:42:37.947Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:42:54.290Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:42:54.297Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:24.273Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:24.283Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:24.572Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:24.576Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:26.048Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:26.056Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:26.837Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:26.841Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:27.616Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:27.619Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:28.016Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:28.019Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:28.534Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:28.543Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:29.001Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:29.009Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:29.270Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:29.274Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:29.607Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:29.613Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:35.450Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:43:35.455Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:46:46.136Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:46:46.148Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:46:50.519Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:46:50.526Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:46:58.888Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:46:58.896Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:47:07.585Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:47:07.592Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:47:36.242Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:47:36.252Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: undefined
+
+[2026-07-30T17:47:52.450Z] POST /api/v1/auth/login
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","content-length":"45","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
+BODY: {"username":"example","password":"E12345678"}
+
+[2026-07-30T17:47:52.709Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:47:52.723Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:47:52.736Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:47:52.747Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:49:58.736Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:49:58.743Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:49:59.229Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:49:59.236Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.131.0 Chrome/148.0.7778.280 Electron/42.7.0 Safari/537.36","sec-ch-ua":"\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US"}
+BODY: undefined
+
+[2026-07-30T17:49:59.302Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:49:59.324Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:49:59.329Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:49:59.420Z] GET /api/v1/auth/me
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","content-type":"application/json","sec-ch-ua-mobile":"?0","accept":"*/*","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk","if-none-match":"W/\"d8-BHkAi9h1/gBpmhnUhZvuZlg5EbM\""}
+BODY: undefined
+
+[2026-07-30T17:49:59.436Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:49:59.442Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:49:59.447Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:49:59.453Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk"}
+BODY: undefined
+
+[2026-07-30T17:49:59.470Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk","if-none-match":"W/\"3e-Hug8hzN2Fspi346U0SAIXOiKkVo\""}
+BODY: undefined
+
+[2026-07-30T17:49:59.477Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk","if-none-match":"W/\"3c-TlReGbsoIskrf+G8ioWS58yEr6A\""}
+BODY: undefined
+
+[2026-07-30T17:49:59.484Z] GET /api/v1/tasks
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk","if-none-match":"W/\"3e-Hug8hzN2Fspi346U0SAIXOiKkVo\""}
+BODY: undefined
+
+[2026-07-30T17:49:59.493Z] GET /api/v1/jobs
+HEADERS: {"host":"localhost:4000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"","dnt":"1","sec-ch-ua-mobile":"?0","origin":"http://localhost:5173","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:5173/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"workboard_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYjM0YjZjYi1iNmZhLTRmOTgtOWM5My1jM2UzMDU4N2MxNjMiLCJ1c2VybmFtZSI6ImV4YW1wbGUiLCJpYXQiOjE3ODU0MzM2NzIsImV4cCI6MTc4NTUyMDA3Mn0.8Z56ortssK0lt6oWQW6av8YAU0q6-ABkPIbWCw_qLnk","if-none-match":"W/\"3c-TlReGbsoIskrf+G8ioWS58yEr6A\""}
+BODY: undefined
+
