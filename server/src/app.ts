@@ -10,6 +10,7 @@ import { errorHandler, notFoundHandler } from './middleware/errorMiddleware'
 import { requestLogger } from './middleware/requestLogger'
 
 const app = express()
+console.log("CLIENT_ORIGIN =", env.clientOrigin)
 
 app.use(
   cors({
