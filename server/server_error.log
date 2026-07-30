@@ -287,3 +287,402 @@ Foreign key constraint violated on the constraint: `Job_userId_fkey`
     at async PrismaJobRepository.create (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:50:17)
     at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:42:19)
 
+[2026-07-30T11:41:51.946Z]
+PrismaClientInitializationError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:41:51.951Z]
+PrismaClientInitializationError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:41:56.027Z]
+PrismaClientInitializationError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:41:56.030Z]
+PrismaClientInitializationError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:42:58.544Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+The column `Task.priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:42:58.568Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+The column `Job.jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:42:58.596Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+The column `Task.priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:42:58.605Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+The column `Job.jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:44:27.087Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+The column `Job.jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:44:27.160Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+The column `Task.priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:44:27.203Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+The column `Job.jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:44:27.222Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+The column `Task.priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:44:29.659Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+The column `Job.jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:44:29.723Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+The column `Task.priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:44:29.800Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+The column `Job.jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:44:29.826Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+The column `Task.priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:44:55.568Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+The column `Job.jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:44:55.583Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+The column `Task.priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:44:55.603Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:40
+
+  28 constructor(private readonly prisma: PrismaClient) {}
+  29 
+  30 async findManyByUserId(userId: string): Promise<Job[]> {
+→ 31   const jobs = await this.prisma.job.findMany(
+The column `Job.jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:31:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:24:20)
+
+[2026-07-30T11:44:55.609Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.findMany()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:42
+
+  23 constructor(private readonly prisma: PrismaClient) {}
+  24 
+  25 async findManyByUserId(userId: string): Promise<Task[]> {
+→ 26   const tasks = await this.prisma.task.findMany(
+The column `Task.priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.findManyByUserId (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:26:19)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:24:21)
+
+[2026-07-30T11:45:00.083Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.task.create()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:45:41
+
+  42 }
+  43 
+  44 async create(input: CreateTaskInput): Promise<Task> {
+→ 45   const task = await this.prisma.task.create(
+The column `priority` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaTaskRepository.create (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\task.repository.ts:45:18)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\taskController.ts:42:20)
+
+[2026-07-30T11:47:11.690Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.create()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:50:39
+
+  47 }
+  48 
+  49 async create(input: CreateJobInput): Promise<Job> {
+→ 50   const job = await this.prisma.job.create(
+The column `jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.create (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:50:17)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:42:19)
+
+[2026-07-30T11:47:14.352Z]
+PrismaClientKnownRequestError: 
+Invalid `this.prisma.job.create()` invocation in
+C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:50:39
+
+  47 }
+  48 
+  49 async create(input: CreateJobInput): Promise<Job> {
+→ 50   const job = await this.prisma.job.create(
+The column `jobTitle` does not exist in the current database.
+    at ri.handleRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:228:13)
+    at ri.handleAndLogRequestError (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ri.request (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async l (C:\Users\MUKHTAR SAYYED\WorkBoard\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:862:24)
+    at async PrismaJobRepository.create (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\repositories\prisma\job.repository.ts:50:17)
+    at async <anonymous> (C:\Users\MUKHTAR SAYYED\WorkBoard\server\src\controllers\jobController.ts:42:19)
+
